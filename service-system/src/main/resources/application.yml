@@ -1,0 +1,10 @@
+
+#给当前应用程序起名
+spring:
+  application:
+    name: service-system
+#多环境切换
+  profiles:
+    active: dev
+server:
+  port: 8800
